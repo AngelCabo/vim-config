@@ -1,5 +1,8 @@
+" sensible leader key
+  let mapleader = ","
+
 " get out of insert mode with cmd-i
-  imap <D-i> <Esc>
+  imap ;; <Esc>
 
 " easy wrap toggling
   nmap <Leader>w :set wrap!<cr>
